@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+        /* start nav */
+nav{
+    background-color: black;
+    height: 50px;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    
+    /* overflow: hidden; */
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 15px 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    transition: 0.5;
+  
+   
+
+   
+}
+nav ul li a:hover{
+    padding: 10px;
+    transition: 0.5s;
+    background-color: rgba(120, 113, 113, 0.428);
+}
+          /* end nav */
+
+
+          /* start home */
+.home{
+    height:100vh;
+    width: 100vw;
+    background-image: url("./imges/istockphoto-486744473-612x612.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+} 
+
+.text{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    color: #fbf7f7;
+    background-color: #000;
+    margin: 500px 50px 10px 50px ;
+    padding: 5px;
+}
+@media (max-width:650px){
+    nav{
+        height: 200px;
+    }
+    nav ul{
+       
+        display: block;
+        text-align: center;
+        width: 100%;
+       
+    }
+    nav ul li {
+        margin-top: 0px;
+        padding: 5px;
+    }
+    
+}
+          /* end home */
+
+          /* start About */
+.About{
+    height: 150vh;
+   
+}  
+.About .span{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px auto;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    letter-spacing:2.2px ;
+
+    
+} 
+.About p{
+    margin: 10px 330px;
+    letter-spacing:  1.5px ;
+    word-spacing: 2px;
+    padding-bottom: 20px;
+    opacity: .9;
+}
+.About img{
+    margin-left: 330px;
+}
+     
+          /* End About */
+          
+          /* start MENU */
+           .Menu .span{
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 100px auto;
+            background-color: #000;
+            color: #fff;
+            padding: 5px;
+            letter-spacing:2.2px ;
+        
+            
+        } 
+        .Menu .cards{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 80px;
+            padding: 5px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        } 
+        .Menu .cards .drink{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+        }
+        .Menu .cards .eat{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .Menu .cards h2{
+            width: 500px;
+            text-align: center;
+            margin-left: .3%;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: rgb(146, 142, 142);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }  
+        .Menu .cards h5{
+            font-size: large;
+            margin-bottom: 10px;
+            margin-left: 15px;
+        } 
+        .Menu .cards p{
+            margin-bottom: 35px;
+            margin-left: 15px;
+            opacity: .6;
+        }      
+          /* END MENU */
+
+
+          /* start where */
+.where h5{
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 100px auto;
+            background-color: #000;
+            color: #fff;
+            font-size:14px;
+            padding: 5px;
+            letter-spacing:2.2px ;
+}
+.where div{
+    display:flex;
+    justify-content: center;
+}
+.where p{
+    margin: 10px 330px;
+    letter-spacing:  1.5px ;
+    word-spacing: 2px;
+    padding-bottom: 20px;
+    line-height: 35px;
+  
+}
+.where p span{
+    background-color: #000;
+    color: #fff;
+    padding: 4px;
+}
+form input{
+    display:block ;
+    margin:  20px auto ;
+    background-color: #eae7e7;
+    width: 50vw;
+    height: 40px;
+    border: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.228);
+
+
+
+} 
+button{
+    margin:  40px 25% ;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: large;
+    padding: 9px;
+}
+.where h4{
+    text-align: center;
+    margin-top: 40px;
+}
+          
+          /* End where */
+
